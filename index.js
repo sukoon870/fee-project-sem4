@@ -2,7 +2,7 @@ const navBar = document.querySelector("nav");
 const navOpener = document.querySelector("nav > button");
 const experienceDivs = document.querySelectorAll(".experience > div");
 const formMain = document.querySelector("#contact form");
-if (!navOpener || !navBar || !experienceDivs.length) {
+if (!navOpener || !navBar || !experienceDivs.length || formMain) {
     throw new Error("Something went wrong with HTML.");
 }
 
