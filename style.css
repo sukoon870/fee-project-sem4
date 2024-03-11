@@ -461,7 +461,7 @@ body {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            gap: 1em;
+            gap: 4em;
             justify-content: center;
             align-items: center;
             padding: 1em;
