@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./index.js" defer></script>
+    </head>
+    <body>
+        <nav class="closed">
+            <div class="cont">
+                <a href="#home">Home</a>
+                <span class="divider"></span>
+                <a href="#about">About</a>
+                <span class="divider"></span>
+                <a href="#services">Our Services</a>
+                <span class="divider"></span>
+                <a href="#portfolio">Portfolio</a>
+                <span class="divider"></span>
+                <a href="#experience">Experience</a>
+                <span class="divider"></span>
+                <a href="#blog">BLog</a>
+                <span class="divider"></span>
+                <a href="#contact">Contact</a>
+            </div>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+            </button>
+        </nav>
+        <header id="home">
+            <div class="intro">
+                <span class="intro-1">HELLO, I AM</span>
+                <span class="intro-2">JOHN</span>
+                <span class="intro-3">SMITH</span>
+                <span class="intro-4"
+                    >i have more than 10 years of experience</span
+                >
+            </div>
+            <button class="btn-grad">Download CV</button>
+        </header>
+        <section id="about">
+            <div class="about-1">
+                <div class="text">
+                    <span class="name">john smith</span>
+                    <span class="title">web designer</span>
+                    <p class="desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                </div>
+                <div class="experience">
+                    <div>
+                        <span class="field" data-len="80">Design</span>
+                        <span class="bar"></span>
+                    </div>
+                    <div>
+                        <span class="field" data-len="65">Photography</span>
+                        <span class="bar"></span>
+                    </div>
+                    <div>
+                        <span class="field" data-len="50">Marketing</span>
+                        <span class="bar"></span>
+                    </div>
+                    <div>
+                        <span class="field" data-len="30">Branding</span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-2">
+                <div>
+                    <span class="icon">
+                        <img
+                            src="./public/phone.svg"
+                            draggable="false"
+                            alt="img"
+                        />
+                    </span>
+                    <div>
+                        <span class="title">Phone Number</span>
+                        <span class="info">+1 234 456-789</span>
+                        <span class="info">+123-456-7890</span>
+                    </div>
+                </div>
+                <div>
+                    <span class="icon">
+                        <img
+                            src="./public/location.svg"
+                            draggable="false"
+                            alt="img"
+                        />
+                    </span>
+                    <div>
+                        <span class="title">Address</span
+                        ><span class="info"> 8, Belgium, Brussels </span>
+                        <span class="info"> Liutte 207 New York, USA </span>
+                    </div>
+                </div>
+                <div>
+                    <span class="icon">
+                        <img
+                            src="./public/cog.svg"
+                            draggable="false"
+                            alt="img"
+                        />
+                    </span>
+                    <div>
+                        <span class="title"
+                            >Email
+                            <address></address></span
+                        ><span class="info"> johnsmith@company.com </span>
+                        <span class="info">youoffice@company.com</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="cont">
+                <h2>Our Services</h2>
+                <span class="desc"
+                    >Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit</span
+                >
+                <div class="services-cont">
+                    <div class="service">
+                        <span class="icon">
+                            <img
+                                src="./public/cog.svg"
+                                draggable="false"
+                                alt="img"
+                            />
+                        </span>
+                        <span class="title">Best Service</span>
+                        <span class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </span>
+                    </div>
+                    <div class="service">
+                        <span class="icon">
+                            <img
+                                src="./public/chain.svg"
+                                draggable="false"
+                                alt="img"
+                            />
+                        </span>
+                        <span class="title">Best Service</span>
+                        <span class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </span>
+                    </div>
+                    <div class="service">
+                        <span class="icon">
+                            <img
+                                src="./public/graph.svg"
+                                draggable="false"
+                                alt="img"
+                            />
+                        </span>
+                        <span class="title">Best Service</span>
+                        <span class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </span>
+                    </div>
+                    <div class="service">
+                        <span class="icon">
+                            <img
+                                src="./public/rocket.svg"
+                                draggable="false"
+                                alt="img"
+                            />
+                        </span>
+                        <span class="title">Best Service</span>
+                        <span class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </span>
+                    </div>
+                    <div class="service">
+                        <span class="icon">
+                            <img
+                                src="./public/plug.svg"
+                                draggable="false"
+                                alt="img"
+                            />
+                        </span>
+                        <span class="title">Best Service</span>
+                        <span class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </span>
+                    </div>
+                    <div class="service">
+                        <span class="icon">
+                            <img
+                                src="./public/blub.svg"
+                                draggable="false"
+                                alt="img"
+                            />
+                        </span>
+                        <span class="title">Best Service</span>
+                        <span class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <div class="cont">
+                <h2>Testimonials</h2>
+                <div>
+                    <div class="text">
+                        <span class="quote"> &#8220; </span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Soluta possimus, obcaecati debitis sed
+                            repudiandae omnis ratione, libero aut officiis
+                            tempore eos saepe? Eos distinctio sequi ullam
+                            expedita unde cum possimus.
+                        </p>
+                        <span class="quote"> &#8221; </span>
+                    </div>
+                    <div class="about">
+                        <span class="avatar">
+                            <img
+                                src="./public/testimonal_avatar.png"
+                                alt="avatar"
+                            />
+                        </span>
+                        <div class="info">
+                            <span class="name">Jon Brown</span>
+                            <span class="title">Graphics Designer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="cont">
+                <h2>Portfolio</h2>
+                <span class="desc"
+                    >Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit.</span
+                >
+                <div class="main">
+                    <div class="sidebar">
+                        <span class="active">All</span>
+                        <span>PSD Design</span>
+                        <span>Presentation</span>
+                        <span>Work Ideas</span>
+                        <span>Mockup</span>
+                        <span>Logo</span>
+                        <span>Icons</span>
+                    </div>
+                    <div class="content">
+                        <a href="javascript:void()" class="item">
+                            <img
+                                src="./public/portfolio_Construction-Company-Website-Template-Free-PSD-D.png"
+                                alt="img"
+                            />
+                        </a>
+                        <a href="javascript:void()" class="item">
+                            <img
+                                src="./public/portfolio_Creative-White-Business-Card-Free-PSD.png"
+                                alt="img"
+                            />
+                        </a>
+                        <a href="javascript:void()" class="item">
+                            <img
+                                src="./public/portfolio_Nature-Tri-Fold-Brochure-Template-Free-PSD.png"
+                                alt="img"
+                            />
+                        </a>
+                        <a href="javascript:void()" class="item">
+                            <img
+                                src="./public/portfolio_Professional-Resume-CV-Template-Free-PSD.png"
+                                alt="img"
+                            />
+                        </a>
+                        <a href="javascript:void()" class="item">
+                            <img
+                                src="./public/portfolio_Restaurant-Table-Tent-Template-Free-PSD.png"
+                                alt="img"
+                            />
+                        </a>
+                        <a href="javascript:void()" class="item">
+                            <img
+                                src="./public/portfolio_Summer-Beach-Party-Flyer-Template-Free-PSD.png"
+                                alt="img"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <div class="cont">
+                <h2>Experience</h2>
+                <span class="desc"
+                    >Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit.</span
+                >
+                <div class="main">
+                    <div class="item">
+                        <div class="role">
+                            <span class="title">Personal Adviser</span>
+                            <span class="year">2015-2016</span>
+                        </div>
+                        <span class="bar"></span>
+                        <div class="desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Ratione officiis repellat omnis, facilis ea
+                            iusto illo eius, dolores, aliquam in tenetur cumque.
+                            Deleniti facilis iste, aliquid sint quo nulla dicta
+                            voluptatem omnis accusamus quos placeat, veritatis,
+                            velit minus soluta maiores?
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="role">
+                            <span class="title">Personal Adviser</span>
+                            <span class="year">2015-2016</span>
+                        </div>
+                        <span class="bar"></span>
+                        <div class="desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Ratione officiis repellat omnis, facilis ea
+                            iusto illo eius, dolores, aliquam in tenetur cumque.
+                            Deleniti facilis iste, aliquid sint quo nulla dicta
+                            voluptatem omnis accusamus quos placeat, veritatis,
+                            velit minus soluta maiores?
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="role">
+                            <span class="title">Personal Adviser</span>
+                            <span class="year">2015-2016</span>
+                        </div>
+                        <span class="bar"></span>
+                        <div class="desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Ratione officiis repellat omnis, facilis ea
+                            iusto illo eius, dolores, aliquam in tenetur cumque.
+                            Deleniti facilis iste, aliquid sint quo nulla dicta
+                            voluptatem omnis accusamus quos placeat, veritatis,
+                            velit minus soluta maiores?
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="role">
+                            <span class="title">Personal Adviser</span>
+                            <span class="year">2015-2016</span>
+                        </div>
+                        <span class="bar"></span>
+                        <div class="desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Ratione officiis repellat omnis, facilis ea
+                            iusto illo eius, dolores, aliquam in tenetur cumque.
+                            Deleniti facilis iste, aliquid sint quo nulla dicta
+                            voluptatem omnis accusamus quos placeat, veritatis,
+                            velit minus soluta maiores?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog">
+            <div class="cont">
+                <h2>Blog</h2>
+                <span class="desc"
+                    >Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit.</span
+                >
+                <div class="main">
+                    <a class="item" href="javascript:void()">
+                        <img
+                            draggable="false"
+                            src="./public/blog_1.png"
+                            alt="blog"
+                        />
+                        <div class="info">
+                            <span class="role">Personal Adviser</span>
+                            <span class="title"
+                                >Computer and Using Some Color</span
+                            >
+                            <p class="desc">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Amet repellat molestiae sed
+                                laboriosam, rem debitis laudantium commodi saepe
+                                iure libero. Perspiciatis temporibus magnam
+                                impedit asperiores sint, tenetur perferendis
+                                saepe repudiandae?
+                            </p>
+                        </div>
+                    </a>
+                    <a class="item" href="javascript:void()">
+                        <img
+                            draggable="false"
+                            src="./public/blog_2.png"
+                            alt="blog"
+                        />
+                        <div class="info">
+                            <span class="role">Personal Adviser</span>
+                            <span class="title"
+                                >Computer and Using Some Color</span
+                            >
+                            <p class="desc">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Amet repellat molestiae sed
+                                laboriosam, rem debitis laudantium commodi saepe
+                                iure libero. Perspiciatis temporibus magnam
+                                impedit asperiores sint, tenetur perferendis
+                                saepe repudiandae?
+                            </p>
+                        </div>
+                    </a>
+                    <a class="item" href="javascript:void()">
+                        <img
+                            draggable="false"
+                            src="./public/blog_3.png"
+                            alt="blog"
+                        />
+                        <div class="info">
+                            <span class="role">Personal Adviser</span>
+                            <span class="title"
+                                >Computer and Using Some Color</span
+                            >
+                            <p class="desc">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Amet repellat molestiae sed
+                                laboriosam, rem debitis laudantium commodi saepe
+                                iure libero. Perspiciatis temporibus magnam
+                                impedit asperiores sint, tenetur perferendis
+                                saepe repudiandae?
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="cont">
+                <h2>Contact</h2>
+                <span class="desc"
+                    >Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit.</span
+                >
+                <form class="main">
+                    <div class="row">
+                        <input
+                            required
+                            type="text"
+                            name="name"
+                            placeholder="Name"
+                        />
+                        <input
+                            required
+                            type="tel"
+                            name="phone"
+                            placeholder="Phone"
+                        />
+                        <input
+                            required
+                            type="email"
+                            name="email"
+                            placeholder="Email"
+                        />
+                    </div>
+                    <textarea
+                        name="message"
+                        placeholder="Message"
+                        required
+                        rows="5"
+                    ></textarea>
+                    <button class="btn-grad" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <span>Copyright 2077 by KKK, All Rights Reserved.</span>
+        </footer>
+    </body>
+</html>
